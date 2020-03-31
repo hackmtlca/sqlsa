@@ -1,4 +1,4 @@
-# Php MySql Docker
+# (SQL)SA
 
 Template for a PHP and MySQL stack. This is made for competition purposes only. A `/mysql/init.sql` is provided to startup the database with data. The data is wiped once the instance is closed.
 

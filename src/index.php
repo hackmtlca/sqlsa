@@ -1,16 +1,13 @@
 <?php
-    $conn = mysqli_connect("db", "root", "root", "template");
-        
-    // Insert MySQL Here.
+    require_once('./lib/sqlsa.php');
 
-    mysqli_close($conn);
+    $sqlsa = new SQLSA(6, "President is safe. Nothing weird is going on. Carry on.", "(SQL)SA is working as usual. Carry on with normal operations.", false);
+
+    if(isset($_POST["username"]) && isset($_POST["password"])) {
+        $sqlsa->runSQL($_POST["username"], md5($_POST["password"]));
+        header("Location: http://localhost/5");
+        exit;
+    }
+    
+    $sqlsa->output();
 ?>
-
-<html>
-    <head>
-
-    </head>
-    <body>
-        <h1>Hello World</h1>
-    </body>
-</html>
