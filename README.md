@@ -4,7 +4,7 @@ This problem is part of the `Intro to Hacking Workshop`. View the [Bug Bounty Gu
 
 ## Context
 
-(SQL)SA is the top security agency of Hack MTL. They keep all the SQL and data safe for the website. Recently, they noticed that a hacker managed to bypass their DEFCON 1 measure. You think you can figure out aswell?
+(SQL)SA is the top security agency of Hack MTL. They keep all the SQL and data safe for the website. Recently, they noticed that a hacker managed to bypass their DEFCON 1 measure. You think you can figure it out aswell?
 
 ## Running the App
 
