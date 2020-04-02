@@ -1,12 +1,10 @@
 # (SQL)SA
 
-Template for a PHP and MySQL stack. This is made for competition purposes only. A `/mysql/init.sql` is provided to startup the database with data. The data is wiped once the instance is closed.
+This problem is part of the `Intro to Hacking Workshop`. View the [Bug Bounty Guide](https://github.com/hackmtlca/bug-bounty-guide) for more information about the score system.
 
-## Required Changes
+## Context
 
-- In `docker-compose.yml`, replace all the `template` to the name of your app. Replace the `root` database password to your own password.
-- In `/mysql/init.sql`, replace the `template` database to your database.
-- In `/src/index.php`, replace the `root` password to the database password.
+(SQL)SA is the top security agency of Hack MTL. They keep all the SQL and data safe for the website. Recently, they noticed that a hacker managed to bypass their DEFCON 1 measure. You think you can figure out aswell?
 
 ## Running the App
 
